@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.container{
+    max-width: 99vw;
+    padding: 10px;
+}
+.one_section{
+    border-radius: 10px ;
+    background-color: #141414;
+    margin: auto;
+    padding: 20px;
+}
+.section_header{
+    margin: auto;
+    min-width:80%;
+    max-width:80%;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    padding: 15px;
+}
+.one_table{
+    background-color: #212529;
+    min-width: 95%;
+    max-width: 95%;
+    margin: auto;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.one_coin_row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 10px 0 ;
+    padding-left: 30px;
+}
+.one_coin_rowtop{
+    color: #23aece;
+    min-width: 13%;
+    max-width: 13%;
+    text-align: center;
+    font-size: 22.5px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.one_coin_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    min-width: 13%;
+    max-width: 13%;
+    text-align: center;
+    font-size: 19px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.one_coin_votes{
+    padding: 10px 5px;
+    min-width: 60%;
+    max-width: 60%;
+    background-color: #23aece;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.one_coin_icon{
+    margin-right: 10px;
+    max-width: 2.5vw;
+    min-width: 2.5vw;
+    max-height: 2.5vw;
+    min-height: 2.5vw;
+    border-radius: 400px;
+    border : 0.5px solid white
+}
