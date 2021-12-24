@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import banner from "../assets/banner.jpg";
 
 function Home() {
   const data = [
@@ -82,7 +83,10 @@ function Home() {
                     : { backgroundColor: "#2c3034" }
                 }
               >
-                <div className="one_coin_item" style={{justifyContent:"left"}}>
+                <div
+                  className="one_coin_item"
+                  style={{ justifyContent: "left" }}
+                >
                   <img className="one_coin_icon" src={item.image} />
                   {item.coin_name}
                 </div>
@@ -96,7 +100,7 @@ function Home() {
                     className="one_coin_votes"
                     style={
                       item.votes === "Promote"
-                        ? { backgroundColor: "#e94b73", cursor:"pointer" }
+                        ? { backgroundColor: "#e94b73", cursor: "pointer" }
                         : {}
                     }
                   >
@@ -114,8 +118,21 @@ function Home() {
   return (
     <>
       <div className="container">
+        <div>
+          <img className="banner" src={banner} />
+        <div className="header">THE COIN</div>
+
+        </div>
         <div className="one_section">
           <div className="section_header">Promoted Coins</div>
+          <div className="one_table">{listCoin()}</div>
+        </div>
+        <div className="one_section">
+          <div className="section_header">Trending Coins</div>
+          <div className="one_table">{listCoin()}</div>
+        </div>
+        <div className="one_section">
+          <div className="section_header">Most Voted Coins</div>
           <div className="one_table">{listCoin()}</div>
         </div>
       </div>
