@@ -1,0 +1,46 @@
+.navbar_bar{
+    font-family: 'Bebas Neue', cursive;
+    color: #DDDDDD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 12vh;
+    max-height: 12vh;
+    background-color: #212529;
+}
+.navbar_icon_section{
+    cursor: pointer;
+    max-width: 20%;
+    min-width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.navbar_icon{
+    border-radius: 7px;
+    margin:  0 15px;
+    max-width: 25%;
+    min-width: 25%;
+}
+.navbar_options{
+    margin-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+}
+.navbar_one_option{
+    cursor: pointer;
+    margin: 0 25px;
+    font-size: 25px;
+}
+.navbar_banner{
+    width: 100%;
+    height: 40vh;
+    object-fit:cover;
+    opacity: 0.6;
+}
