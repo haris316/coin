@@ -90,10 +90,10 @@ function Home() {
                   <img className="one_coin_icon" src={item.image} />
                   {item.coin_name}
                 </div>
-                <div className="one_coin_item">{item.total_holders}</div>
+                <div className="one_coin_item">{item.total_holders} </div>
                 <div className="one_coin_item">{item.market_cap}</div>
-                <div className="one_coin_item">{item.price}</div>
-                <div className="one_coin_item">{item.age}</div>
+                <div className="one_coin_item">${item.price}</div>
+                <div className="one_coin_item">{item.age} days</div>
                 <div className="one_coin_item">
                   {" "}
                   <div
